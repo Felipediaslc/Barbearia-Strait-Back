@@ -4,7 +4,7 @@ generator client {
  
 datasource db {
   provider = "mysql"
-  url      = "mysql://ah7kh17wx1l34byx:i10w9zza986drt6q@dfkpczjgmpvkugnb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/xgxt2c7uv6nafocb"
+  url      = env("JAWSDB_URL")
 }
 
 model administradores {
